@@ -1,0 +1,16 @@
+{
+  "name": "e-reviews",
+  "version": "1.0.0",
+  "description": "E-Reviews: customer feedback application with user registration, review submission and a view-only admin dashboard (zero npm dependencies)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "seed:admin": "node --disable-warning=ExperimentalWarning scripts/seed-admin.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "MIT"
+}
